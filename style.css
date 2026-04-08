@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bar {
+  /* background-color: red; */
+  width: 12vw;
+  height: 100vh;
+  color: #fff;
+}
+
+h2 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  padding: 20px;
+  padding-top: 75px;
+}
+
+.bottom {
+  width: 100vw;
+  height: 20px;
+  position: fixed;
+  color: #fff;
+  left: 35%;
+  bottom: 0;
+}
+
+.contant {
+  width: 85vw;
+  height: 95vh;
+  background-color: #fff;
+  border-radius: 0 0 0 50px;
+}
